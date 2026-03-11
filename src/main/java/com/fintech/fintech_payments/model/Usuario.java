@@ -33,16 +33,8 @@ public class Usuario {
     private LocalDateTime criadoEm = LocalDateTime.now();
 
     public enum PerfilUsuario {
-        ADMIN, OPERADOR, AUDITOR
+        ADMIN,
+        OPERADOR,
+        AUDITOR
     }
 }
-```
-
-        ---
-
-        ### ✅ Estrutura do pacote model após criar as 3 classes:
-        ```
-model/
-        ├── Conta.java
-├── Transacao.java
-└── Usuario.java
